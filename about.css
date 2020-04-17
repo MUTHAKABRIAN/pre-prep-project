@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: 50px 75px 100px#ddd;
+  color: lime;
+}
+.topnav > #appointment {
+  margin-left: 55%;
+}
+ul {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: white;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p,
+h3,
+h2,
+h5 {
+  color: rgb(177, 10, 163);
+  font-family: system-ui;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rosybrown;
+  margin-top: 10px;
+}

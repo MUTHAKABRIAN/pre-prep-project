@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 50px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: 50px 75px 100px#ddd;
+  color: lime;
+}
+.topnav > #appointment {
+  margin-left: 40%;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rosybrown;
+  margin-top: 10px;
+}
+
+h2 {
+  color: rgb(177, 10, 163);
+  font-family: system-ui;
+}
+
+.main-content-wrapper {
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.upper-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.photo-container {
+  float: left;
+  margin-right: 10px;
+}
+.photo-container img {
+  width: 350px;
+  border: 1px solid #333;
+  margin-right: 10px;
+}
+.about-me {
+  float: right;
+  clear: none;
+}
+.contact-info {
+  float: right;
+}
+
+.lower-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  margin-top: 15px;
+  margin: 10px 10px 10px 10px;
+}
+.appoinment-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 0px;
+}
+li > a:hover {
+  opacity: 0.7;
+}
+
+.appoinment-form {
+  float: left;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 20px;
+  margin: 20px 20px 20px 20px;
+}
+
+form.form {
+  width: 100%;
+  display: table;
+  margin-bottom: 10px;
+}
+
+div.form {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.form {
+  margin: 5px;
+  margin-top: 5px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.testimonial > ul > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#service {
+  margin-bottom: 10px;
+  width: 100%;
+}
+p,
+h3,
+h2,
+h5 {
+  color: rgb(177, 10, 163);
+  font-family: system-ui;
+}
